@@ -6,11 +6,14 @@
   "type": "module",
   "bin": {
     "code": "bin/menu-games.js",
-    "brain-games":"bin/menu-game.js"
+    "brain-games": "bin/menu-game.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ME",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
