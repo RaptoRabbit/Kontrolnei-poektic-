@@ -6,7 +6,9 @@
   "type": "module",
   "bin": {
     "code": "bin/menu-games.js",
-    "brain-games": "bin/menu-game.js"
+    "brain-games": "bin/menu-game.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-scm": "bin/brain-scm.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +17,10 @@
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
